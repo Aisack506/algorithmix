@@ -65,9 +65,9 @@ Run directly via Maven:
 mvn clean compile exec:java -Dexec.mainClass="Main"
 ```
 
-Or run the compiled JAR file:
+Or run the application directly with Java::
 ```text
-java -jar out/artifacts/AlgorithmiX_jar/AlgorithmiX.jar
+java -cp "target/classes;C:\Users\Kzisa\.m2\repository\com\formdev\flatlaf\3.7.2\flatlaf-3.7.2.jar" Main
 ```
 
 ---
